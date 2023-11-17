@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cf9e5ff189.js" crossorigin="anonymous"></script>
+</head>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Developer</p>
+                <h1>Hi, I m <span>Isha</span></h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I am a proactive problem solver and a quick learner. I thrive in fast-paced environments and am constantly adapting to emerging technologies and industry trends. I am passionate about staying up to date with the latest advancements in web development and exploring new tools and frameworks to enhance my skillset.I am excited about the opportunity to collaborate on your next web development project. Feel free to explore my portfolio and get in touch. Let's work together to bring your ideas to life and create exceptional digital experiences!</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>
+                            <span>Frontend Development</span><br>HTML CSS JAVASCRIPT
+                        </li>
+                        <li>
+                            <span>Java Development</span><br>Advance Knowledge of java
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>
+                            <span>Subject Matter Expert</span><br>MIIT Edu. Services Pvt. Ltd.(Aug 2021-April 2022)
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>
+                            <span>10<sup>th</sup> Standard CBSE</span><br>2017-2018: 90.8%<br>
+                        </li>
+                        <li>
+                            <span>12<sup>th</sup> Standard CBSE</span><br>2019-2020: 83%
+                        </li>
+                        <li>
+                            <span>BTECH CSE</span><br>2020-present: 89.35%
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------services----------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>HTML/CSS<br>
+                        JavaScript<br>
+                        Responsive Design<br>
+                        Front-End Frameworks(e.g., React)<br>
+                        Back-End Development<br>
+                        APIs and Web Services<br></p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Course Work</h2>
+                    <p>Data Structures and Algorithms <br>
+                        Object-Oriented Programming (OOP)<br>
+                        Databases<br>
+                        Operating Systems<br>
+                        Networking <br></p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Technical Skills</h2>
+                    <p>Languages: Java, C++, Problem Solving<br>
+                        Tools/Platform: Node.js,Git,Github, Visual Studio Code <br>
+                        Databases: MySQL</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/g3.jpeg" alt="">
+                <div class="layer">
+                    <h3>Global Fitness</h3>
+                    <p>It is a frontend website to keep oneself fit at home with proper exercises and diet.Includes exercise videos and animations.</p>
+                    <a href="https://ig-global-fitness.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/f2.jpg" alt="">
+                <div class="layer">
+                    <h3>Hommie Foods</h3>
+                    <p>Hommie Foods Tiffin service is Kurukshetra's first food-commerce which allows you to order delicious home-style food in a convenient manner.We have partnered with home-makers in Kurukshetra who love to cook & serve.</p>
+                    <a href="https://classy-genie-8fea20.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/bio.jpeg" alt="">
+                <div class="layer">
+                    <h3>My portfolio</h3>
+                    <p>I am excited about the opportunity to collaborate on your next web development project. Feel free to explore my portfolio and get in touch. Let's work together to bring your ideas to life and create exceptional digital experiences!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- contact -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>isha28092002@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>8930600882</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/isha-panchal-53027020b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/isha_p2002/"><i class="fa-brands fa-square-instagram"></i></i></a>
+                    <a href="https://github.com/dashboard"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" class="text" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Isha. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+                
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwI4U02180rv-_fx-EfcX9sND1OuoGQzvuEBN0zFG9M3DHOa_FfFAk7AeHQc7Pd3olJ/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById("msg");
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully";
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
